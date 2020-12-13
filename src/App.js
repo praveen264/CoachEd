@@ -12,11 +12,11 @@ import { Route,BrowserRouter as Router, Switch } from 'react-router-dom';
 //import DashboardComponent from './DashboardComponent';
 //import Apitokentesting from './Apitokentesting';
 
-import Users from './Users';
-import UsersEdit from './UsersEdit';
-import List from './components/list';
-import Userscart from './Userscart';
-import Carts from './Carts';
+// import Users from './Users';
+// import UsersEdit from './UsersEdit';
+// import List from './components/list';
+// import Userscart from './Userscart';
+// import Carts from './Carts';
 import Coached from './Coached';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
             
             <DashboardComponent></DashboardComponent>
           </Route> */}
-          <Route path="/users">
+          {/* <Route path="/users">
             
             <Users></Users>
           </Route>
@@ -53,7 +53,7 @@ function App() {
           <Route path="/usersedit/:id">
             
             <UsersEdit></UsersEdit>
-          </Route>
+          </Route> */}
 
           <Route path="/coached">
             <Coached></Coached>
